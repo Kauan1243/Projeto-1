@@ -1,7 +1,7 @@
 //tipo string = texto
 
 const texto1 = "Olá Mundo!";
-const nome = "Emanuel";
+const nome = "Kauan";
 const senha = "1234";
 const stringNumerica = "senhaSuperSegura456"
 console.log(texto1, "\n");
