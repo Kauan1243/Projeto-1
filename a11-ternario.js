@@ -11,3 +11,6 @@ console.log('Ainda não tem idade suficiente para dirigir')
 
 let permissao = idadeCliente >= idadeMin ? "sim" : "não";
 console.log("permissao para dirigir: "+ permissao)
+
+let selecao = 'Brasil';
+console.log( selecao == 'Brasil'? 'O hexa é nosso!': 'Fica pra próxima')
