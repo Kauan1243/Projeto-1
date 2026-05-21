@@ -14,5 +14,5 @@ console.log(citacao + nome);
 //template string ou templeta literal
 //  \u0024
 
-const cifrao = '\u0024';
+const cifrao = '\u0027';
 console.log(cifrao);
