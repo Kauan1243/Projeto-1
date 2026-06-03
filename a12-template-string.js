@@ -1,5 +1,5 @@
 const nome = "Kauan";
-const idade = 2026-2009;
+const idade = 2026-2010;
 const cidadeDeNascimento = "Dois Vizinhos";
 
 const apresentação = "Meu nome é " + nome + ", Minha idade é " + idade + " e nasci na cidade de " + cidadeDeNascimento;

@@ -25,7 +25,7 @@ if(idadeDoCliente >= idadeMin){
 
 //Operador ternàrio
 let permissao = idadeDoCliente >= idadeMin ? "sim" : "não" ;
-console.log("permissão para direigir: ", permissao);
+console.log("permissão para dirigir: ", permissao);
 
 //outro exemplo
 // condição ? resposta V : resposta F;
