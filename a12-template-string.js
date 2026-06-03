@@ -1,9 +1,12 @@
-const nome = Kauan
-const idade = 2026-2010
-const cidnascimento = "Dois Vizinhos"
+const nome = "Kauan";
+const idade = 2026-2009;
+const cidadeDeNascimento = "Dois Vizinhos";
 
-const apresentacao = "Meu nome é "+nome+ " minha idade é "+idade+" Minha cidade de nascimento é "+cidnascimento;
-console.log(apresentacao)
+const apresentação = "Meu nome é " + nome + ", Minha idade é " + idade + " e nasci na cidade de " + cidadeDeNascimento;
+console.log(apresentação);
 
-const apresentacao2 = `Meu nomw é ${nome}, Minha idade é ${idade}, Minha cidade de nascimento é ${cidnascimento}`
-console.log(apresentacao2)
+// Template Strings
+// Uma apresentaçã de texto personalizada.
+// Utiliza a craze ao invés das aspas.
+const apresentação2 = `Meu nome é ${nome}, Minha idade é ${idade} e nasci na cidade de ${cidadeDeNascimento}`;
+console.log(apresentação2);
