@@ -6,10 +6,10 @@ function soma () {
     2 + 2
 }*/
 
-var valor1 = Number(prompt("Digite o valor 1:")); 
-var valor2 = Number(prompt("Digite o valor 2:"));
+const valor1 = Number(await perguntar("Digite o valor 1: "));
+const valor2 = Number(await perguntar("Digite o valor 2: "));
 
-var operacao = prompt("Digite a operação (+, -, *, /):");
+var operacao = await("Digite a operação (+, -, *, /):");
 
 function calcular(valor1, valor2, operacao) {
     
@@ -30,6 +30,7 @@ function calcular(valor1, valor2, operacao) {
     }
 }
 
+ 
 
 var resultado = calcular(valor1, valor2, operacao);
-alert("Resultado: " + resultado);
+console.log("Resultado: " + resultado);
