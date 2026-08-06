@@ -1,6 +1,3 @@
-function soma(parametro1, parametro2, parametro3){
+let nome = paulo
 
-
-}
-
-soma
+console.log(nome)
