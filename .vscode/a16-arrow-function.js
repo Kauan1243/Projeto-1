@@ -28,9 +28,9 @@ console.log(verificacao(10));
 
 const calcular = (valor1, valor2) => {
     if (valor1 < 10 & valor2 < 10){
-        return `O Resultado do calcúlo é:${valor1 * valor2} `
+        return valor1 * valor2
     }else{
-        return `O Resultado do calcúlo é:${valor1 + valor2}`
+        return "Só é permitido números menores do que 10"
     }
 
 }
